@@ -267,6 +267,7 @@ class DataEditorApp:
         json_data = {
             "Model Name": self.model_name_entry.get(),
             "Description": self.igname_entry.get(),
+            "entity_properties": {"type":1.0},
             "Category": self.category_combobox.get(),
             "Price": self.ammo_price_entry.get(),
             "Ammo Price": self.ammo_price_entry.get(),
